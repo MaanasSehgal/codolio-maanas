@@ -38,7 +38,7 @@ export default function FooterComponent() {
                     <div className="col-span-full mb-10 lg:col-span-2 lg:mb-0">
                         <div className="flex justify-center lg:justify-start items-center">
                             {/* <Image src="/logo.svg" width={40} height={40} alt="logo" /> */}
-                            <h1>TransactEase</h1>
+                            <h1>PayVista</h1>
                         </div>
                         <p className="py-8 text-sm text-[--darkText2] lg:max-w-xs text-center lg:text-left">Trusted by users from 62+ countries! Have any query?</p>
                         <div

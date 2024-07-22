@@ -24,7 +24,7 @@ const Navbar: React.FC = () => {
     return (
         <header className="fixed top-0 left-0 w-full p-5 md:px-24 bg-white dark:bg-gray-900 bg-opacity-10 dark:bg-opacity-10 backdrop-filter backdrop-blur-lg border-b-2 border-white border-opacity-20 flex justify-between items-center z-50 transition-transform duration-500">
             <a href='#' className="text-black dark:text-white text-xl font-semibold">
-                FastZapp
+                PayVista
             </a>
 
             <div className="flex items-center">
