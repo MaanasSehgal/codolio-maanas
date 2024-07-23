@@ -149,7 +149,7 @@ const Transactions: React.FC = () => {
     const paginatedTransactions = transactions.slice((currentPage - 1) * itemsPerPage, currentPage * itemsPerPage);
 
     return (
-        <div className='w-[90%] md:w-[80%] px-[5%] m-auto mt-24 bg-white dark:bg-black'>
+        <div className='w-[100%] md:w-[80%] px-[5%] m-auto mt-24 bg-white dark:bg-black'>
             <div className='flex'>
                 <PieChart transactions={transactionData} />
             </div>

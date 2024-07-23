@@ -67,8 +67,6 @@ const PieChart: React.FC<PieChartProps> = ({ transactions }) => {
         pieSliceTextStyle: {
             color: 'white',
         },
-        pieHole: 0.4,
-        is3D: true,
         slices: {
             0: { color: '#FF6384' },
             1: { color: '#36A2EB' },
@@ -86,7 +84,7 @@ const PieChart: React.FC<PieChartProps> = ({ transactions }) => {
         <div className="flex flex-col md:flex-row justify-center items-center w-full mb-6 space-y-8 md:space-y-0 md:space-x-8">
             <div className="relative w-full max-w-xl bg-gradient-to-br from-green-400/30 to-blue-500/30 rounded-xl overflow-hidden shadow-xl transition-all duration-300 ease-in-out hover:scale-105 hover:shadow-2xl hover:z-10">
                 <div className="p-6">
-                    <h2 className="text-2xl font-bold text-black dark:text-white mb-4 underline underline-offset-4">Income Distribution</h2>
+                    <h2 className="text-2xl font-bold text-black dark:text-white mb-4 underline text-center underline-offset-4">Income Distribution</h2>
                     <Chart
                         chartType="PieChart"
                         data={incomeData}
@@ -94,7 +92,7 @@ const PieChart: React.FC<PieChartProps> = ({ transactions }) => {
                         width={"100%"}
                         height={"400px"}
                     />
-                    <div className="absolute top-4 right-4">
+                    <div className="top-4 right-4">
                         <div className="font-bold text-3xl text-green-400 glow-effect">
                             $<CountUp start={0} end={totalIncome} duration={2} decimals={2} />
                         </div>
@@ -103,7 +101,7 @@ const PieChart: React.FC<PieChartProps> = ({ transactions }) => {
             </div>
             <div className="relative w-full max-w-xl bg-gradient-to-br from-red-400/30 to-pink-500/30 rounded-xl overflow-hidden shadow-xl transition-all duration-300 ease-in-out hover:scale-105 hover:shadow-2xl hover:z-10">
                 <div className="p-6">
-                    <h2 className="text-2xl font-bold text-black dark:text-white mb-4 underline underline-offset-4">Expense Distribution</h2>
+                    <h2 className="text-2xl font-bold text-black dark:text-white mb-4 underline underline-offset-4 text-center">Expense Distribution</h2>
                     <Chart
                         chartType="PieChart"
                         data={expenseData}
@@ -111,7 +109,7 @@ const PieChart: React.FC<PieChartProps> = ({ transactions }) => {
                         width={"100%"}
                         height={"400px"}
                     />
-                    <div className="absolute top-4 right-4">
+                    <div className="top-4 right-4">
                         <div className="font-bold text-3xl text-red-400 glow-effect">
                             $<CountUp start={0} end={totalExpense} duration={2} decimals={2} />
                         </div>
