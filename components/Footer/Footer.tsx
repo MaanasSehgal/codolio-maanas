@@ -47,7 +47,7 @@ export default function FooterComponent() {
                         </div>
                     </div>
                     <div className="lg:mx-auto text-left">
-                        <h4 className="text-lg text-[--darkText1] font-medium mb-7">TransactEase</h4>
+                        <h4 className="text-lg text-[--darkText1] font-medium mb-7">PayVista</h4>
                         <ul className="text-sm transition-all duration-500">
                             <li className="mb-6">
                                 <div onClick={() => scrollToFunc("scroll-to-home")} className="text-[--darkText2] hover:text-[--darkText1] cursor-pointer">
@@ -130,7 +130,7 @@ export default function FooterComponent() {
                 <div className="py-7 border-t border-gray-200">
                     <div className="flex items-center justify-center flex-col lg:justify-between lg:flex-row">
                         <Link href="https://www.linkedin.com/in/maanassehgal" className="text-sm text-[darkText1] underline underline-offset-4">
-                            <div>@TransactEase 2024, All rights reserved.</div>
+                            <div>@PayVista 2024, All rights reserved.</div>
                         </Link>
                         <div className="flex mt-4 space-x-4 sm:justify-center lg:mt-0">
                             <Link href="https://www.linkedin.com/in/maanassehgal/" target="_blank" className="w-9 h-9 rounded-full bg-gray-100 dark:bg-gray-700 flex justify-center items-center hover:bg-indigo-600">
@@ -142,7 +142,7 @@ export default function FooterComponent() {
                                 </svg>
                             </Link>
                             <Link href="https://www.instagram.com/maanas1605" target="_blank" className="w-9 h-9 rounded-full bg-gray-100 dark:bg-gray-700 flex justify-center items-center hover:bg-indigo-600 p-2">
-                                <Instagram/>
+                                <Instagram />
                             </Link>
                             <Link href="https://twitter.com/maanas_1605" target="_blank" className="w-9 h-9 rounded-full bg-gray-100 dark:bg-gray-700 flex justify-center items-center hover:bg-indigo-600">
                                 <svg className="w-[1rem] h-[1rem] text-[darkText1]" viewBox="0 0 13 12" fill="none" xmlns="">
